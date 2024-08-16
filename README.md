@@ -116,6 +116,58 @@ O último gráfico que criamos neste arquivo foi o de resultado de conclusão po
 
 Com toda esta análise feita, exportamos o arquivo <b>'bases_finais/alunos.csv'</b> com as informações acima para que possamos criar um dashboard interativo no Looker. 
 
+## Presença dos alunos
+
+Identificamos o engajamento dos alunos com a instituição Passos Mágicos e, a partir disso, realizamos as seguintes análises:
+
+- Distribuição geral de presenças, faltas e justificativas.
+- Comportamento de presença em cada disciplina.
+- Aulas mais frequentadas.
+- Turmas mais engajadas (com maior frequência).
+- Frequência de presença por sexo.
+
+Após essas verificações, criamos algumas visualizações para facilitar a análise e o entendimento dos dados.
+
+### Distribuição Geral de Presenças, Faltas e Justificativas
+
+A primeira visualização foi criada para observar a distribuição geral de presenças, faltas e justificativas:
+
+![alt text](imagens/frequencia_geral.png).
+
+Identificamos que há um alto nível de engajamento dos alunos com a instituição, com 78,7% de presença, 1,6% de faltas justificadas, e 19,7% de faltas não justificadas.
+
+### Comportamento de Presença por Disciplina
+
+Em seguida, analisamos o comportamento de presença em cada disciplina para entender o nível de engajamento em cada uma delas:
+
+![alt text](imagens/frequencia_disciplina.png).
+
+Disciplinas tradicionais, como Português, Matemática e Inglês, apresentam maiores índices de presença. Além disso, observamos que a disciplina "Heróis da Educação" também possui uma alta taxa de frequência.
+
+### Aulas Mais Frequentadas
+
+Cada disciplina contém diferentes aulas, e para um entendimento mais aprofundado, analisamos as aulas mais frequentadas:
+
+![alt text](imagens/frequencia_aulas.png).
+
+As aulas de "Autoconhecimento" e as sessões de provas estão entre as Top 10 mais frequentadas, demonstrando a preocupação da instituição Passos Mágicos com o desenvolvimento integral dos alunos.
+
+### Turmas Mais Engajadas
+
+Também investigamos quais turmas demonstram maior engajamento e frequência:
+
+![alt text](imagens/frequencia_turma.png).
+
+As 10 turmas com maior frequência têm uma quantidade de presenças bastante similar. No entanto, também identificamos turmas com menor frequência, o que pode ser explicado por turmas menores ou pela falta de dados.
+
+### Frequência por Sexo
+
+Por fim, analisamos a diferença de frequência entre os sexos:
+
+![alt text](imagens/frequencia_sexo.png).
+
+Observamos que o sexo feminino apresenta uma frequência significativamente maior do que o sexo masculino, com 134.266 presenças contra 111.863, uma diferença de 19,99%.
+
 # Segunda Etapa
 
 A segunda etapa foi de criação do dashboard interativo, desta forma o usuário terá mais idependencia e poderá criar suas próprias análises.
