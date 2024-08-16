@@ -74,17 +74,21 @@ Para um entendimento melhor, decidimos olhar as visões para cada um dos sexos d
 ### Masculino:
 
 - Gráfico de etnia:
+
 ![alt text](imagens/grafico_distribuicao_idade_etnia_masculino.png)
 
-- Gráfico de Status Responsável
+- Gráfico de Status Responsável:
+
 ![alt text](imagens/grafico_distribuicao_idade_status_responsavel_masculino.png)
 
 ### Feminino:
 
 - Gráfico de etnia:
+
 ![alt text](imagens/grafico_distribuicao_idade_etnia_feminino.png)
 
-- Gráfico de Status Responsável
+- Gráfico de Status Responsável:
+
 ![alt text](imagens/grafico_distribuicao_idade_status_responsavel_feminino.png)
 
 ### Histórico dos Alunos
