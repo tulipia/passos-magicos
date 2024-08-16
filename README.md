@@ -33,7 +33,11 @@ Iniciando o projeto começamos com a exploração dos diversos dados que temos c
 
 Cada um destes dados separado dentro da pasta <b>"bases_finais/"</b>
 
-2 - Analisamos algumas das bases do banco de dados no arquivo <b>"index_v2.ipynb"</b>. As explorações se iniciaram com a tbAluno. Seguem alguns pontos gerais que exploramos inicialmente:
+2 - Analisamos algumas das bases do banco de dados no arquivo <b>"index_v2.ipynb"</b>. As explorações se iniciaram com a tbAluno, e depois incluímos a tbHistorico.
+
+## Informações Gerais dos Alunos
+
+Seguem alguns pontos gerais que exploramos inicialmente:
 
 - Há 2238 alunos distintos na base.
 
@@ -59,6 +63,53 @@ Em seguida, analisamos os alunos por suas etnias.
 
 Aqui podemos observar uma <b>concentração das classificações "B" e "R".</b>
 
+Após isso verificamos a questão dos pais cadastratados como responsáveis, desta forma podemos ver se há alguma impacto:
+![alt text](imagens/grafico_distribuicao_idade_status_responsavel.png)
+
+Concluímos que <b>até os 9 anos é mais comum os alunos terem apenas o pai cadastrado</b> como responsável, porém a partir de <b>10 anos idade observamos que há uma mudança forte e os alunos possuem apenas a mãe cadastrada.</b> Outro ponto importante de informar é observamos alguns alunos que não possuem nenhum dos pais cadastrados, mas nenhum aluno com ambos cadastrados.
+
 Para um entendimento melhor, decidimos olhar as visões para cada um dos sexos dos alunos.
 
-- Masculino:
+### Masculino:
+
+- Gráfico de etnia:
+![alt text](imagens/grafico_distribuicao_idade_etnia_masculino.png)
+
+- Gráfico de Status Responsável
+![alt text](imagens/grafico_distribuicao_idade_status_responsavel_masculino.png)
+
+### Feminino:
+
+- Gráfico de etnia:
+![alt text](imagens/grafico_distribuicao_idade_etnia_feminino.png)
+
+- Gráfico de Status Responsável
+![alt text](imagens/grafico_distribuicao_idade_status_responsavel_feminino.png)
+
+### Histórico dos Alunos
+
+Identificamos que a base só possuia 124 alunos distintos, apesar disso seguimos a analise em cima da amostra que temos.
+
+- Iniciamos verificando as distribuições de etnia pelos anos de conclusão do projeto:
+![alt text](imagens/ano_conclusao_raca.png)
+
+Observamos que houve uma <b>queda no número de alunos de 2022</b> e após esta data o público <b>majoritariamente é classificado como a etnia "B"</b>.
+
+- Após isso, criamos a seguinte visão para verificar qual seria o sexo mais predominante a finalizar o projeto:
+![alt text](imagens/ano_conclusao_sexo.png)
+
+Vemos que há uma <b>tendência maior do sexo feminino concluir o projeto</b>, apesar de 2022 o sexo masculino ter sido maior.
+
+- Montamos também a visão correlacionando o cadastro do responsável com o ano de conclusão:
+![alt text](imagens/ano_conclusao_status_responsavel.png)
+
+Observa-se nos <b>anos 2021, 2022 e 2023 que há um forte indício daqueles que possuem a mãe cadastrada a finalizar o projeto</b>. Entretanto, no ano de <b>2024 houve um aumento dos que possuem apenas o pai cadastrado</b> (não havendo nenhum aluno onde não possuia nenhum responsável), possivelmente possa sinalizar uma mudança no padrão ou um ano outlier.
+
+O último gráfico que criamos neste arquivo foi o de resultado de conclusão por etnia:
+
+![alt text](imagens/resultado_final_raca.png).
+
+Com toda esta análise feita, exportamos o arquivo <b>'bases_finais/alunos.csv'</b> com as informações acima para que possamos criar um dashboard interativo no Looker. 
+
+# Segunda Etapa
+
