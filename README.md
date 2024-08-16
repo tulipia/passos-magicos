@@ -113,3 +113,11 @@ Com toda esta análise feita, exportamos o arquivo <b>'bases_finais/alunos.csv'<
 
 # Segunda Etapa
 
+A segunda etapa foi de criação do dashboard interativo, desta forma o usuário terá mais idependencia e poderá criar suas próprias análises.
+
+Link para acessar o dash:
+
+    https://lookerstudio.google.com/reporting/7450813a-7302-488a-a011-fc6d0ff02861
+
+Foram replicadas as mesmas visões de nosso estudo, no dash. Ficando da seguinte forma:
+![alt text](imagens/dash_looker_pag1.png)
