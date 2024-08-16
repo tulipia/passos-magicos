@@ -64,6 +64,7 @@ Em seguida, analisamos os alunos por suas etnias.
 Aqui podemos observar uma <b>concentração das classificações "B" e "R".</b>
 
 Após isso verificamos a questão dos pais cadastratados como responsáveis, desta forma podemos ver se há alguma impacto:
+
 ![alt text](imagens/grafico_distribuicao_idade_status_responsavel.png)
 
 Concluímos que <b>até os 9 anos é mais comum os alunos terem apenas o pai cadastrado</b> como responsável, porém a partir de <b>10 anos idade observamos que há uma mudança forte e os alunos possuem apenas a mãe cadastrada.</b> Outro ponto importante de informar é observamos alguns alunos que não possuem nenhum dos pais cadastrados, mas nenhum aluno com ambos cadastrados.
