@@ -126,3 +126,5 @@ Link para acessar o dash:
 
 Foram replicadas as mesmas visões de nosso estudo, no dash. Ficando da seguinte forma:
 ![alt text](imagens/dash_looker_pag1.png)
+
+# Terceira Etapa Conclusões Finais
