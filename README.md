@@ -177,6 +177,9 @@ Link para acessar o dash:
     https://lookerstudio.google.com/reporting/7450813a-7302-488a-a011-fc6d0ff02861
 
 Foram replicadas as mesmas visões de nosso estudo, no dash. Ficando da seguinte forma:
+
+- Análise das Alunos
 ![alt text](imagens/dash_looker_pag1.png)
 
-# Terceira Etapa Conclusões Finais
+- Análise das Aulas
+![alt text](imagens/dash_looker_pag2.png)
